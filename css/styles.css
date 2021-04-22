@@ -1,0 +1,15 @@
+.lop{
+    list-style: none;
+    display: inline;
+}
+nav> ul li{
+    padding: 3px;
+}
+nav>ul li a{
+    color: black;
+    font-family: "Courgette", cursive;
+    font-size: larger;
+}
+nav>ul li a:hover{
+    background-color: yellow;
+}
