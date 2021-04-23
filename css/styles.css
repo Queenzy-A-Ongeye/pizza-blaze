@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 nav > ul li {
   padding: 3px;
   list-style: none;
@@ -20,11 +21,20 @@ nav > ul li a:hover {
 header{
   background: rgba(0, 0, 0, 0.829);
   text-align: center;
-  padding-top: 7%;
+  padding-top: 5%;
   height: 1000px;
 }
 h1{
-  font-size: 55px;
+  font-size: 75px;
+  font-family: 'Permanent Marker', cursive;
+  color: yellow;
+}
+span{
+  color: orangered;
+}
+h3{
+  font-size: 25px;
+  color: yellowgreen;
 }
 /* body{
   background-image: url("../img/foodsBg.jpg");
