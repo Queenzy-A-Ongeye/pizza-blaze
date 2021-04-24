@@ -72,3 +72,18 @@ h2{
 #pop>p{
   font-size: 18px;
 }
+#menu{
+  max-width: 1200px;
+  padding-right: 8%;
+}
+.food{
+  background: white;
+}
+.col-md-3 img{
+  padding: 5%;
+  display: inline;
+
+}
+#lim{
+  color: white;
+}
