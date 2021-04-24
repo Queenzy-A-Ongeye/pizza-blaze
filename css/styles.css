@@ -11,18 +11,21 @@ nav > ul li a {
 nav > ul li a:hover {
   color: white;
 }
-#food {
+body {
   background-image: url("../img/fod.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 1000px;
+  
 }
 header {
   background: rgba(0, 0, 0, 0.829);
   text-align: center;
   padding-top: 5%;
-  height: 1000px;
+  height: 1200px;
+  max-width: 1200px;
+  padding-left: 8%;
+  margin: auto;
 }
 h1 {
   font-size: 85px;
@@ -36,11 +39,16 @@ h3 {
   font-size: 25px;
   color: yellowgreen;
 }
+.card{
+  background-color: rgba(0, 0, 0, 0)!important;
+}
 .card-body {
-  border-radius: 35px;
+  border-radius: 25px;
   box-shadow: 5px 5px 5px rgba(195, 194, 194, 0.945);
-  width: 100%;
+  max-width: 1000px;
   height: 500px;
+  align-items: center;
+  background-color: white;
 }
 .range {
   /* display: flex; */
