@@ -98,15 +98,16 @@
                 <div class="container order" id="order">
                     <div class="order-overlay">
                         <div class="control-top text-center" id="Order-now">
-                            <h2>Order Here</h2>
+                            <h2 id="lim">Order Here</h2>
                         </div>
-                        <h2>Order a delicious pizza and we will deliver at your door step!</h2>
+                        <h2 id="lim">Order a delicious pizza and we will deliver at your door step!</h2>
                         <div class="row">
                             <div class="col-sm-5">
                                 <form action="">
                                     <label for="Select">Select Your Flavour</label>
                                     <select class="browser-default custom-select custom-select-md mb-3 name">
                                         <!-- <option selected value="Menu">Menu</option> -->
+                                        <option selected value="0"></option>
                                         <option value="Chiken Tikka">Chiken Tikka</option>
                                         <option value="Peperoni Pizza">Peperoni pizza</option>
                                         <option value="Raspberry Desert Pizza">Raspberry Desert Pizza</option>
@@ -116,7 +117,7 @@
                                     </select>
                                     <label for="select">Select size</label>
                                     <select class="browser-default custom-select custom-select-md mb-3" id="size">
-                                        <option selected value="0">Select size here</option>
+                                        <option selected value="0"></option>
                                         <option value="large">Large -- sh. 1,300</option>
                                         <option value="medium">Medium -- sh. 850</option>
                                         <option value="small">Small -- sh. 600</option>
@@ -124,13 +125,87 @@
                                     </select>
                                     <label for="crust">Choose your favorite Crust!</label>
                                     <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+                                        <option selected value="0"></option>
                                         <option value="crispy">Crispy -- sh.200</option>
                                         <option value="stuffed">Stuffed -- sh.150</option>
                                         <option value="Gluten-free">Gluten-free -- sh.180</option>
                                         <option value="Flatbread">Flatbread -- sh.120</option>
                                     </select>
-
+                                    <label for="Toppings">Choose your Toppings at sh.50 each</label><br>
+                                    <div class="custom-control custom-checkbox custom-control-inline">
+                                        <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage"
+                                            name="toppings">
+                                        <label class="custom-control-label" for="Sausage">Sausage</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox custom-control-inline">
+                                        <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon"
+                                            name="toppings">
+                                        <label class="custom-control-label" for="Bacon">Bacon</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox custom-control-inline">
+                                        <input type="checkbox" class="custom-control-input" id="Melted"
+                                            value="Meled cheese" name="toppings">
+                                        <label class="custom-control-label" for="Melted-cheese">Melted cheese</label>
+                                    </div>
+                                    <br><br>
+                                    <button type="submit" class="btn btn-success proceed">Proceed</button>
+                                </form>
                             </div>
+                            <div class="col-sm-7">
+                                <div id="information">
+                                    <p>Your order will be processed and delivered within one hour of placing.</p>
+                                    <p>Welcome Again..</p>
+                                    <p id="regards">Regards, Flora(Chef)</p>
+                                </div>
+                                <div class="choice">
+                                    <h2 id="lim">Your Order is:</h2>
+                                    <div id="your-orders">
+                                        <table class="table table-sm  pizzatable">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">Name</th>
+                                                    <th scope="col">Size</th>
+                                                    <th scope="col">Crust</th>
+                                                    <th scope="col">Topping</th>
+                                                    <th scope="col">Total</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody id="ordersmade">
+                                                <tr>
+                                                    <td id="pizzaname"></td>
+                                                    <td id="pizzasize"></td>
+                                                    <td id="pizzacrust"></td>
+                                                    <td id="pizzatopping"></td>
+                                                    <td id="totals"></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <p id="pizzatotal"></p>
+                                        <p id="totalbill"></p>
+                                        <p id="addedprice">Delivery will cost sh. 150</p>
+                                        <p id="finallmessage"></p>
+                                    </div>
+                                    <button class="btn btn-success addPizza">Add Pizza</button>
+                                    <button class="btn btn-success" id="checkout">Checkout</button>
+                                    <button class="btn btn-success deliver">Home delivery?</button>
+                                </div>
+                                <div class="pick-up">
+                                    <form action="">
+                                        <div class="form-group">
+                                            <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                                            <input type="number" id="phone" class="form-control mb-3"
+                                                placeholder="Pnone Number">
+                                            <input type="text" id="location" class="form-control mb-3"
+                                                placeholder="Location for delivery">
+                                            <button class="btn btn-success" id="final-order">Place Order</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </header>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
