@@ -95,10 +95,42 @@
 
             <!-- order -->
             <div id="order">
-                <form>
-                    
-                </form>
-            </div>
+                <div class="container order" id="order">
+                    <div class="order-overlay">
+                        <div class="control-top text-center" id="Order-now">
+                            <h2>Order Here</h2>
+                        </div>
+                        <h2>Order a delicious pizza and we will deliver at your door step!</h2>
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <form action="">
+                                    <label for="Select">Select Your Flavour</label>
+                                    <select class="browser-default custom-select custom-select-md mb-3 name">
+                                        <!-- <option selected value="Menu">Menu</option> -->
+                                        <option value="Chiken Tikka">Chiken Tikka</option>
+                                        <option value="Peperoni Pizza">Peperoni pizza</option>
+                                        <option value="Raspberry Desert Pizza">Raspberry Desert Pizza</option>
+                                        <option value="Barbecue Chicken Pizza">Barbecue Chicken Pizza</option>
+                                        <option value="Veggie Pizza">Veggie Pizza</option>
+                                        <option value="Seafood Pizza">Seafood Pizza</option>
+                                    </select>
+                                    <label for="select">Select size</label>
+                                    <select class="browser-default custom-select custom-select-md mb-3" id="size">
+                                        <option selected value="0">Select size here</option>
+                                        <option value="large">Large -- sh. 1,300</option>
+                                        <option value="medium">Medium -- sh. 850</option>
+                                        <option value="small">Small -- sh. 600</option>
+                                        <option value="special offer">Special Friday -- sh.1,500</option>
+                                    </select>
+                                    <label for="crust">Choose your favorite Crust!</label>
+                                    <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+                                        <option value="crispy">Crispy -- sh.200</option>
+                                        <option value="stuffed">Stuffed -- sh.150</option>
+                                        <option value="Gluten-free">Gluten-free -- sh.180</option>
+                                        <option value="Flatbread">Flatbread -- sh.120</option>
+                                    </select>
+
+                            </div>
         </header>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
