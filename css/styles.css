@@ -16,13 +16,12 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
 }
 header {
   background: rgba(0, 0, 0, 0.829);
   text-align: center;
   padding-top: 5%;
-  height: 2000px;
+  height: 2150px;
   max-width: 1200px;
   padding-left: 8%;
   margin: auto;
@@ -39,8 +38,8 @@ h3 {
   font-size: 25px;
   color: yellowgreen;
 }
-.card{
-  background-color: rgba(0, 0, 0, 0)!important;
+.card {
+  background-color: rgba(0, 0, 0, 0) !important;
 }
 .card-body {
   border-radius: 25px;
@@ -61,84 +60,84 @@ h3 {
   padding-left: 5%;
   margin-top: -0.9%;
 }
-.content{
+.content {
   float: left;
 }
-h2{
+h2 {
   text-align: center;
   font-size: 55px;
-  font-family: 'Original Surfer', cursive;
+  font-family: "Original Surfer", cursive;
 }
-#pop>p{
+#pop > p {
   font-size: 18px;
 }
-#menu{
+#menu {
   max-width: 1200px;
   padding-right: 8%;
 }
-.food{
+.food {
   background: white;
 }
-.col-md-3 img{
+.col-md-3 img {
   padding: 5%;
   display: inline;
-
 }
-#lim{
+#lim {
   color: white;
 }
-.order{
+.order {
   color: white;
   padding-top: 4%;
   padding-bottom: 4%;
 }
-.order-overlay{
+.order-overlay {
   background-color: rgba(114, 112, 112, 0.727);
   margin-left: -2%;
   margin-right: 8%;
   padding-bottom: 20px;
   padding-right: -8%;
 }
-.choice{
+.choice {
   display: none;
   padding-left: 2%;
   padding-right: 2%;
 }
-.deliver{
+.deliver {
   display: none;
 }
-.pick-up{
+.pick-up {
   display: none;
   padding-left: 10%;
   padding-right: 10%;
 }
-td,th{
+td,
+th {
   font-size: 20px;
   color: white;
 }
-.choice h2{
-  color:orange;
+.choice h2 {
+  color: orange;
   text-align: left;
 }
-#your-orders{
+#your-orders {
   color: white;
   font-size: 30px;
 }
-#addedprice{
+#addedprice {
   display: none;
 }
-#finallmessage{
+#finallmessage {
   display: none;
   padding-top: 10%;
   padding-right: 10%;
   padding-left: 10%;
   font-size: 28px;
 }
-#regards{
+#regards {
   text-align: center;
   color: aliceblue;
 }
-#info{
+#info {
   padding-top: 5%;
   font-size: 22px;
   padding-right: 8%;
@@ -148,4 +147,41 @@ td,th{
 button {
   border-radius: 15px;
   background-color: crimson;
+}
+select {
+  margin: 15px;
+  width: 300px;
+  padding: 5px 35px 5px 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+label{
+  font-size: 20px;
+}
+option{
+  font-size: 19px;
+}
+#information> p{
+  font-size: 20px;
+}
+#regards{
+  font-size: 20px;
+}
+ul >li{
+  list-style: none;
+}
+.con{
+ color: yellow;
+ font-size: 20px;
+}
+#con{
+  color: yellowgreen;
+  font-size: 20px;
+}
+h4{
+  font-size: 30px;
 }
