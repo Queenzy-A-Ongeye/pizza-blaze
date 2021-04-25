@@ -23,4 +23,4 @@ https://github.com/Queen-01/pizza-blaze.git
 ### Live Site
 View [Live] (https://github.com/Queen-01/pizza-blaze.git)
 ### Licence
-This project is under the  [MIT](License) license
+This project is under the  [MIT](license) license
